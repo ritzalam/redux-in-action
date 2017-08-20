@@ -12,6 +12,7 @@ class App extends Component {
         <TasksPage 
           tasks={this.props.tasks} 
           onCreateTask={this.onCreateTask}
+          onStatusChange={this.onStatusChange}
         />
       </div>
     );
